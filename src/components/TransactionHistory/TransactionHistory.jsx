@@ -11,7 +11,6 @@ const TransactionHistory = ({items}) => {
       <th>Currency</th>
     </tr>
   </thead>
-
   <tbody>
     {items.map(item => {
     return (
@@ -23,7 +22,6 @@ const TransactionHistory = ({items}) => {
     )})}
   </tbody>
 </table>
-
   )
 }
 
